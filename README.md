@@ -45,3 +45,5 @@ data['diff'] = abs(data.iloc[:, 0]-data.iloc[:, 1])
 data = data.sort_values(by = ['diff'], ascending = False)
 ```
 Можно посмотреть на эти различия графически
+![2171008f884d00ffadb74724201b0fa1](https://github.com/LinkCatList/cancerDataset/blob/main/picture.png)
+## Обучение и оценка качества модели
